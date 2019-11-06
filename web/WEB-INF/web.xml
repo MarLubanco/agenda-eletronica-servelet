@@ -20,4 +20,14 @@
         <servlet-name>contato</servlet-name>
         <url-pattern>/contato</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>grupo</servlet-name>
+        <servlet-class>br.edu.unifil.servlet.GrupoServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>grupo</servlet-name>
+        <url-pattern>/grupo</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>

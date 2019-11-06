@@ -17,7 +17,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/home.jsp">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/index.jsp">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="/contato.jsp">Contato</a>
             <a class="nav-item nav-link" href="/grupo.jsp">Grupo</a>
         </div>
@@ -26,6 +26,8 @@
 
     <form action="/contato" method="post">
         <div class="container">
+            <div class="jumbotron">
+
             <div class="form-group">
                 <label>Nome</label>
                 <input class="form-control" type="text"  name="nome" id="nome">
@@ -43,6 +45,7 @@
                 <input class="form-control" type="text" name="telefone" id="telefone">
             </div>
                 <button  class="btn btn-success" type="submit">Enviar</button>
+            </div>
         </div>
     </form>
 </body>

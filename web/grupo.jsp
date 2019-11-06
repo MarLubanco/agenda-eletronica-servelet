@@ -17,16 +17,17 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/home.jsp">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/index.jsp">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="/contato.jsp">Contato</a>
             <a class="nav-item nav-link" href="/grupo.jsp">Grupo</a>
         </div>
     </div>
 </nav>
-    <label>Criar um novo grupo</label>
     <br>
-    <form>
+    <form action="/grupo" method="post"                                                                                                                                                                                                                                 >
         <div class="container">
+            <div class="jumbotron">
+                <label class="label label-default">Criar um novo grupo</label>
 
         <div class="form-group">
             <label>Nome do grupo</label>
@@ -34,6 +35,7 @@
         </div>
             <hr>
             <button class="btn btn-success" type="submit">Enviar</button>
+        </div>
         </div>
     </form>
 </body>

@@ -7,16 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a30cdee-d4d4-4281-9a53-b01942783ae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/service/ContatoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/grupo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exemplo_javaee_war_exploded/WEB-INF/classes/br/edu/unifil/servlet/ContatoServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exemplo_javaee_war_exploded/WEB-INF/classes/br/edu/unifil/servlet/ContatoServelet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exemplo_javaee_war_exploded/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/exemplo_javaee_war_exploded/contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exemplo-javaee/br/edu/unifil/servlet/ContatoServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exemplo-javaee/br/edu/unifil/servlet/ContatoServelet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/unifil/servlet/ContatoServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/ContatoServelet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/unifil/servlet/HelloWorldServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/HelloWorldServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/contato.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/grupo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/grupo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -250,7 +245,7 @@
       <workItem from="1572905346593" duration="4710000" />
       <workItem from="1572994167756" duration="416000" />
       <workItem from="1572998832397" duration="3774000" />
-      <workItem from="1573076830566" duration="2735000" />
+      <workItem from="1573076830566" duration="3322000" />
     </task>
     <servers />
   </component>

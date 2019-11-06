@@ -12,12 +12,7 @@ public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-
-        // Set response content type
         resp.setContentType("text/html");
-//        resp.addHeader("header-teste","teste123");
-
-        // Actual logic goes here.
         PrintWriter out = resp.getWriter();
         out.println("<h1> Hello, world!</h1>");
     }

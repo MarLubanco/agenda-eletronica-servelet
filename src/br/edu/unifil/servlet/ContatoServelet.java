@@ -14,7 +14,11 @@ public class ContatoServelet extends HttpServlet {
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
         String nome = req.getParameter("nome");
-        out.println("<h1>" + nome + "</h1>");
+        String sobrenome = req.getParameter("sobrenome");
+        String email = req.getParameter("email");
+        out.println("<h2> " + nome + "</h2>\n" +
+                "<h2> " + sobrenome + "</h2>\n" +
+                "<h2> " + email + "</h2>");
     }
 
     @Override
@@ -22,7 +26,11 @@ public class ContatoServelet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         String nome = req.getParameter("nome");
-        out.println("<h2>" + nome + "</h1>");
+        String sobrenome = req.getParameter("sobrenome");
+        String email = req.getParameter("email");
+        out.println("<h2> " + nome + "</h2>\n" +
+                "<h2> " + sobrenome + "</h2>\n" +
+                "<h2> " + email + "</h2>");
 
     }
 

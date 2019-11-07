@@ -7,11 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a30cdee-d4d4-4281-9a53-b01942783ae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hsqldb_hsqldb_1_8_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_hibernate_core_5_2_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/entities/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/entities/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/entities/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unifil/servlet/service/PhoneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/grupo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/grupo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo-javaee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo-javaee.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exemplo_javaee_war_exploded/WEB-INF/classes/br/edu/unifil/servlet/service/ContatoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exemplo-javaee/br/edu/unifil/servlet/service/ContatoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unifil/servlet/service/ContatoService.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,25 +47,36 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TDdvJBY4FYAfBQueLmqbasijit" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/edu/unifil/servlet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/edu/unifil/servlet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web" />
     </key>
@@ -246,6 +267,8 @@
       <workItem from="1572994167756" duration="416000" />
       <workItem from="1572998832397" duration="3774000" />
       <workItem from="1573076830566" duration="3322000" />
+      <workItem from="1573123738084" duration="1091000" />
+      <workItem from="1573147086667" duration="3330000" />
     </task>
     <servers />
   </component>
@@ -280,95 +303,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>exemplo-javaee:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (exemplo-javaee)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>exemplo-javaee</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>javax.servlet:javax.servlet-api:4.0.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

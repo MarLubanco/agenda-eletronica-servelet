@@ -1,6 +1,7 @@
 package br.edu.unifil.servlet.service;
 
 import br.edu.unifil.servlet.entities.Contact;
+import br.edu.unifil.servlet.utils.Utils;
 
 import javax.persistence.EntityManager;
 import java.sql.SQLException;
@@ -8,7 +9,10 @@ import java.util.List;
 
 public class ContactService {
 
-    public void salvarNovoContato(Contact contact, EntityManager entityManager) {
+    Utils utils = new Utils();
+    EntityManager entityManager = utils.getConnection();
+
+    public void salvarNovoContato(Contact contact) {
        try {
            entityManager.getTransaction().begin();
            entityManager.persist(contact);
@@ -19,7 +23,7 @@ public class ContactService {
        }
     }
 
-    public void deletarContato(Integer id, EntityManager entityManager) {
+    public void deletarContato(Integer id) {
         try {
             entityManager.getTransaction().begin();
             Contact contactRecuperado = entityManager.find(Contact.class, id);
@@ -40,7 +44,7 @@ public class ContactService {
         }
     }
 
-    public void atualizarContato(Contact contatoExistente, EntityManager entityManager) {
+    public void atualizarContato(Contact contatoExistente) {
        try {
            entityManager.getTransaction().begin();
            entityManager.persist(contatoExistente);
@@ -51,11 +55,11 @@ public class ContactService {
        }
     }
 
-    public List<Contact> findAllContatos(EntityManager entityManager) {
+    public List<Contact> findAllContatos() {
         return entityManager.createQuery("select c from Contact c", Contact.class).getResultList();
     }
 
-    public List<Contact> findContactByName(String nome, EntityManager entityManager) throws SQLException {
+    public List<Contact> findContactByName(String nome) throws SQLException {
         return entityManager.createQuery("select c from Contact c where c.firstName = :nome", Contact.class)
                 .setParameter("nome", nome)
                 .getResultList();

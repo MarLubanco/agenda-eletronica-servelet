@@ -1,6 +1,7 @@
 package br.edu.unifil.servlet.service;
 
 import br.edu.unifil.servlet.entities.Groups;
+import br.edu.unifil.servlet.utils.Utils;
 
 import javax.persistence.EntityManager;
 import java.sql.SQLException;
@@ -8,7 +9,10 @@ import java.util.List;
 
 public class GroupService {
 
-    public void insertGroups(EntityManager entityManager, Groups groups) {
+    Utils utils = new Utils();
+    EntityManager entityManager = utils.getConnection();
+
+    public void insertGroups(Groups groups) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(groups);
@@ -19,11 +23,11 @@ public class GroupService {
         }
     }
 
-    public List<Groups> findAllGroups(EntityManager entityManager) throws SQLException {
+    public List<Groups> findAllGroups() throws SQLException {
         return entityManager.createQuery("select g from Groups g", Groups.class).getResultList();
     }
 
-    public void deletarGroup(EntityManager entityManager, String grupoRemove) throws SQLException {
+    public void deletarGroup(String grupoRemove) throws SQLException {
         try {
             Groups grupo = entityManager.createQuery("select g from Groups g where g.description = :grupo", Groups.class)
                     .setParameter("grupo", grupoRemove).getResultList().get(0);
